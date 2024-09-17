@@ -1,3 +1,4 @@
+// 1st
 function calculateDifference(a, b) {
   return a - b;
 }
@@ -16,6 +17,11 @@ function isOdd(number) {
 // console.log(isOdd(5));
 
 // 3rd
+let numbers3 = [2, 4, 5, 7, 1, 8];
+function findMin(num) {
+  return Math.min(...num);
+}
+console.log(findMin(numbers3));
 
 // 4th
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -39,4 +45,4 @@ function findAverage(num) {
   let total = num.reduce((acc, val) => acc + val, 0);
   return total / num.length;
 }
-console.log(findAverage(numbers2));
+// console.log(findAverage(numbers2));
