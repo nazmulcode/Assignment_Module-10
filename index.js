@@ -25,9 +25,18 @@ function filterEvenNumbers(number) {
 let evenNumbers = filterEvenNumbers(numbers);
 // console.log(evenNumbers);
 
-// 5th
-
+// 6th
 function lowercaseFirstLetter(name) {
   return name.charAt(0).toLowerCase() + name.slice(1);
 }
-console.log(lowercaseFirstLetter("NAZMUL"));
+// console.log(lowercaseFirstLetter("NAZMUL"));
+
+// 7th
+
+// 8th
+let numbers2 = [10, 20, 30, 40, 50];
+function findAverage(num) {
+  let total = num.reduce((acc, val) => acc + val, 0);
+  return total / num.length;
+}
+console.log(findAverage(numbers2));
