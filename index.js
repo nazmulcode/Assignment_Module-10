@@ -21,7 +21,7 @@ let numbers3 = [2, 4, 5, 7, 1, 8];
 function findMin(num) {
   return Math.min(...num);
 }
-console.log(findMin(numbers3));
+// console.log(findMin(numbers3));
 
 // 4th
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -30,6 +30,13 @@ function filterEvenNumbers(number) {
 }
 let evenNumbers = filterEvenNumbers(numbers);
 // console.log(evenNumbers);
+
+// 5th
+function countVowels(name) {
+  const vowels = "aeiouAEIOU";
+  return Array.from(name).filter((countV) => vowels.includes(countV)).length;
+}
+console.log(countVowels("Nazmul"));
 
 // 6th
 function lowercaseFirstLetter(name) {
