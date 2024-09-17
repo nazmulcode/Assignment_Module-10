@@ -32,11 +32,12 @@ let evenNumbers = filterEvenNumbers(numbers);
 // console.log(evenNumbers);
 
 // 5th
-function countVowels(name) {
-  const vowels = "aeiouAEIOU";
-  return Array.from(name).filter((countV) => vowels.includes(countV)).length;
+let number = [20, 10, 15, 70, 50, 30];
+function sortArrayDescending(num) {
+  return num.sort().reverse();
 }
-console.log(countVowels("Nazmul"));
+let newArr = sortArrayDescending(number);
+console.log(newArr);
 
 // 6th
 function lowercaseFirstLetter(name) {
@@ -45,6 +46,11 @@ function lowercaseFirstLetter(name) {
 // console.log(lowercaseFirstLetter("NAZMUL"));
 
 // 7th
+function countVowels(name) {
+  const vowels = "aeiouAEIOU";
+  return Array.from(name).filter((countV) => vowels.includes(countV)).length;
+}
+// console.log(countVowels("Nazmul"));
 
 // 8th
 let numbers2 = [10, 20, 30, 40, 50];
