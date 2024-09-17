@@ -23,4 +23,11 @@ function filterEvenNumbers(number) {
   return number.filter((num) => num % 2 === 0);
 }
 let evenNumbers = filterEvenNumbers(numbers);
-console.log(evenNumbers);
+// console.log(evenNumbers);
+
+// 5th
+
+function lowercaseFirstLetter(name) {
+  return name.charAt(0).toLowerCase() + name.slice(1);
+}
+console.log(lowercaseFirstLetter("NAZMUL"));
